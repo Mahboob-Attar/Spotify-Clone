@@ -23,11 +23,6 @@ It lets you play, pause, skip, and navigate through songs stored locally in your
 
 ---
 
-## 📂 Folder Structure
-
-
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5** – structure
@@ -42,3 +37,6 @@ It lets you play, pause, skip, and navigate through songs stored locally in your
 1. **Clone this repository**  
    ```bash
    git clone https://github.com/yourusername/spotify-music-player.git
+
+2.**Open index.html in your browser**
+   Just double-click index.html or right-click → Open with → your preferred browser   
