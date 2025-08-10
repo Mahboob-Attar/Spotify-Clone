@@ -7,7 +7,7 @@ It lets you play, pause, skip, and navigate through songs stored locally in your
 
 ## 📸 App Screenshot
 
-![App Screenshot](assets/AppScreenshot.png)  
+![App Screenshot](assets/AppScreenshot.png) 
 
 
 ---
