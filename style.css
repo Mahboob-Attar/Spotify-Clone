@@ -176,14 +176,3 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Small devices */
-@media only screen and (max-width: 600px) {
-  .about-container {
-    margin: 20px;
-    padding: 20px;
-  }
-
-  .about-container h1 {
-    font-size: 2rem;
-  }
-}
