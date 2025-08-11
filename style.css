@@ -82,7 +82,6 @@ nav ul li{
     height: 50px;
     display: flex;
     background-color: white;
-    
     color: black;
     margin: 12px 0;
     justify-content: space-between;
@@ -119,10 +118,8 @@ nav ul li{
     body {
       background-color: red;
     }
-  }
+}
     
-
-  /* About Page Styling */
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -176,3 +173,67 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+    #myProgressBar {
+        width: 90vw;
+    }
+    .songInfo {
+        left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .songItem {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .songItem img {
+        margin: 10px 0;
+    }
+    #myProgressBar {
+        width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .brand {
+        font-size: 1rem;
+    }
+    nav ul li {
+        padding: 5px;
+    }
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    .about-container {
+        padding: 15px;
+        margin: 20px;
+    }
+    .about-container h1 {
+        font-size: 1.8rem;
+    }
+    .about-container p {
+        font-size: 0.95rem;
+    }
+    .songInfo {
+        left: 2vw;
+        font-size: 0.85rem;
+    }
+}
